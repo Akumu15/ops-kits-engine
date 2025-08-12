@@ -1,0 +1,12 @@
+slug,title,price,gumroad_url,meta_description,og_image,problem_copy,sheet_feature,notion_feature,faq_copy
+client-os,Client OS,$99,https://gum.co/REPLACE-client-os,A plug-and-play CRM + pipeline + invoices kit for {{industry}}.,https://placehold.co/1200x630,"Most {{industry}} lose work to follow-up gaps and messy spreadsheets. Client OS centralizes leads, proposals, invoices, and tasks so you close faster and get paid sooner.",CRM + pipeline + invoices + dashboard,"Client portal, proposal blocks, onboarding SOPs","Q: Does it work in Google Drive?
+A: Yes, import the Excel to Google Sheets and duplicate the Notion page.
+
+Q: Can I customize fields?
+A: Everything is unprotected—tweak freely."
+lead-tracker-lite,Lead Tracker Lite,$19,https://gum.co/REPLACE-lead-tracker,"Simple, reliable lead tracker and follow‑up cadence for {{industry}}.",https://placehold.co/1200x630,"If your follow‑ups live in your head, money leaks. This tracker keeps contacts, stages, and due follow‑ups in one place.",Kanban stages + reminders,Discovery call script + follow‑up checklist,"Q: Is this too basic?
+A: It's intentionally minimal; upgrade to Client OS for automation and invoices."
+proposal-pack,Proposal & Scope Pack,$29,https://gum.co/REPLACE-proposal-pack,Battle‑tested proposal and scope copy for {{industry}} projects.,https://placehold.co/1200x630,Proposals that confuse don't close. This pack gives you structure and objection‑ready copy blocks.,Scope calculator + rate sheet,Proposal page with variables and sections,"Q: Can I export to PDF?
+A: Yes—Google Docs or Notion → Export."
+cashflow-forecast,Cashflow Forecast,$39,https://gum.co/REPLACE-cashflow,12‑month cashflow planner for {{industry}} to avoid dry months.,https://placehold.co/1200x630,"See what happens if you raise prices, add retainers, or shift payment terms.",Monthly inflow/outflow + what‑if toggles,Cash buffer policy + collections SOP,"Q: Does this handle multiple currencies?
+A: Input numbers in your working currency; add a conversion sheet if needed."

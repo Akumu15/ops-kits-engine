@@ -1,0 +1,15 @@
+<!doctype html><meta charset="utf-8"><title>Invoice Late Fee</title>
+<style>body{font-family:system-ui;margin:10px} input{padding:6px;margin:4px 0;width:100%} .card{border:1px solid #eee;border-radius:10px;padding:10px}</style>
+<div class=card>
+<h3>Invoice Late Fee</h3>
+<label>Invoice Amount</label><input type=number id=amt value=1000>
+<label>Late Fee % per 30 days</label><input type=number id=pct value=3>
+<label>Days Late</label><input type=number id=days value=15>
+<p><b>Late Fee:</b> <span id=out>—</span></p>
+<p><a href="../..//cashflow-forecast.html">Plan cashflow with our kit</a></p>
+</div>
+<script>
+function calc(){const A=+amt.value||0,p=(+pct.value||0)/100,d=+days.value||0;
+const fee=A*p*(d/30); out.textContent='$'+fee.toFixed(2);}
+['amt','pct','days'].forEach(id=>document.getElementById(id).addEventListener('input',calc)); calc();
+</script>

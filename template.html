@@ -1,0 +1,43 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width">
+<title>{{ title }} for {{ name }}</title>
+<meta name="description" content="{{ meta_description }}">
+<meta property="og:title" content="{{ title }} for {{ name }}">
+<meta property="og:type" content="article">
+<meta property="og:image" content="{{ og_image }}">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="./feed.xml">
+<style>
+body{font-family:system-ui;margin:24px;max-width:860px}
+h1{font-size:2rem;margin:.2rem 0 1rem}
+ul{line-height:1.6}
+.cta{background:#111;color:#fff;padding:12px 18px;border-radius:10px;text-decoration:none}
+.badge{font-size:.8rem;color:#666}
+.card{border:1px solid #eee;border-radius:12px;padding:16px;margin:12px 0}
+footer{margin-top:40px;color:#666;font-size:.9rem}
+</style>
+</head><body>
+<p class="badge">Ops Kits Engine</p>
+<h1>{{ title }} for {{ name }}</h1>
+<p>{{ problem_copy }}</p>
+
+<div class="card">
+<h2>What you get</h2>
+<ul>
+  <li>Google Sheets: {{ sheet_feature }}</li>
+  <li>Notion: {{ notion_feature }}</li>
+  <li>Checklist + Loom quick start</li>
+</ul>
+<a class="cta" href="{{ gumroad_url }}">Get the kit — {{ price }}</a>
+</div>
+
+<h2>Free tool</h2>
+<iframe src="./embed/calculators/rate.html" width="100%" height="240" style="border:1px solid #eee;border-radius:10px"></iframe>
+
+<h2>FAQ</h2>
+<p style="white-space:pre-wrap">{{ faq_copy }}</p>
+
+<hr>
+<p>Remix this? <a href="./remix.html">See license</a> · Earn 40%: <a href="./affiliates.html">Join affiliates</a></p>
+
+<footer>© 2025 Ops Kits Engine</footer>
+</body></html>

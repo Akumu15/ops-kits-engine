@@ -1,0 +1,17 @@
+<!doctype html><meta charset="utf-8"><title>Rate → Project Calculator</title>
+<style>body{font-family:system-ui;margin:10px} input{padding:6px;margin:4px 0;width:100%} .card{border:1px solid #eee;border-radius:10px;padding:10px}</style>
+<div class=card>
+<h3>Rate → Project Calculator</h3>
+<label>Hourly Rate</label><input type=number id=rate value=75>
+<label>Estimated Hours</label><input type=number id=hours value=10>
+<label>Overhead/Buffer (%)</label><input type=number id=buffer value=20>
+<p><b>Suggested Price:</b> <span id=out>—</span></p>
+<p><a href="../..//client-os.html">Get the full Client OS</a></p>
+</div>
+<script>
+function calc(){const r=+rate.value||0,h=+hours.value||0,b=(+buffer.value||0)/100;
+const price=(r*h)*(1+b);
+out.textContent = '$'+price.toFixed(0);}
+['rate','hours','buffer'].forEach(id=>document.getElementById(id).addEventListener('input',calc));
+calc();
+</script>
